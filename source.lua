@@ -857,9 +857,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
 	LoadingFrame.Title.Text = Settings.LoadingTitle or ""
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Modified by Sirius"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Modified by Ruinyx"
 	if Settings.LoadingTitle ~= "" then
-		LoadingFrame.Version.Text = ""
+		LoadingFrame.Version.Text = "Ruinyx"
 	end
 
 	if dragBar then
